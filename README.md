@@ -21,3 +21,9 @@ Catching problems before they become a major problem is a massive economic advan
 - Flexibile
 - Robust
 - Cost-effective
+
+### Linux - Ubuntu distro
+- update `sudo apt-get update -y`
+- upgrade `sudo apt-get upgrade -y`
+- Who am I `uname` or `uname -a`
+- Where am I `pwd`
