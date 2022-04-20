@@ -26,3 +26,4 @@ Catching problems before they become a major problem is a massive economic advan
 - Installed vagrant, virtualbox and Ruby
 - Manually created Git repository
 - Started running a virtual machine by running vagrant up, checked it with vagrant status, and entered the machine with the vagrant ssh command.
+- Learnt how to reset commits.
