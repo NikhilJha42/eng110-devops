@@ -13,12 +13,12 @@ Catching problems before they become a major problem is a massive economic advan
 - Collaboration
 - Efficient deployment
 - Optimisation of software development
-- Improve business value
+- Improve the business value
 
 ## Four Pillars of DevOps
 
 - Ease of use
-- Flexibile
+- Flexible
 - Robust
 - Cost-effective
 
@@ -53,11 +53,29 @@ Catching problems before they become a major problem is a massive economic advan
 - How to check permissions
 - How to switch to 'root user' `sudo su`
 - How to change permissions `chmod instruction file_name`
-- How to install a product - install webserver called `nginx`
-- `sudo apt-get install package_name`
-- How to check the status - `systemctl status nginx`
 
 
 ### Timeout
 - To run a process for a given time `timeout DURATION COMMAND`
 - `sleep` will exit after the time has completed
+
+### Installing a product
+- How to install a product - install webserver called `nginx`
+- `sudo apt-get install package_name`
+- How to check the status - `systemctl status nginx`
+
+### Automating the installation of a product
+- Make sure that there are no virtual machines in your location.
+- Create a `provisioning.sh` file.
+- Add the following commands to the file:
+-- `#!/bin/bash` (This is very important, as it tells vagrant that this is a provisioning shell file"
+-- `sudo apt-get update -y` # run updates
+-- `sudo apt-get upgrade -y` # run upgrade
+-- `sudo apt-get install nginx -y` # install nginx
+-- `sudo systemctl start nginx` #start nginx
+-- `sudo systemctl enable nginx` #enable nginx
+- Update your vagrantfile with the following command:
+`config.vm.provision "shell", path: "provisioning.sh"`
+- Now if you run `vagrant up`, provisioning.sh should execute, thus the VM will automatically:
+-- update & upgrade;
+-- install the package nginx.

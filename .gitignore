@@ -1,1 +1,5 @@
+# Important to ignore vagrant.
 .vagrant
+
+# This is just a log.
+ubuntu-xenial-16.04-cloudimg-console.log
