@@ -22,6 +22,12 @@ Catching problems before they become a major problem is a massive economic advan
 - Robust
 - Cost-effective
 
+## Work done on 19/04/2022
+- Installed vagrant, virtualbox and Ruby
+- Manually created Git repository
+- Started running a virtual machine by running vagrant up, checked it with vagrant status, and entered the machine with the vagrant ssh command.
+- Learnt how to reset commits.
+
 ### Linux - Ubuntu distro
 - update `sudo apt-get update -y`
 - upgrade `sudo apt-get upgrade -y`
