@@ -1,1 +1,1 @@
-![Virtual Machine Set Up Diagram]("C:\Users\njha\GitRepos\eng110_devops\documentation\Virtual_Machine.png")
+![Virtual Machine Set Up](./Virtual_Machine.png)
