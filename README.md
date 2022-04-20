@@ -53,3 +53,11 @@ Catching problems before they become a major problem is a massive economic advan
 - How to check permissions
 - How to switch to 'root user' `sudo su`
 - How to change permissions `chmod instruction file_name`
+- How to install a product - install webserver called `nginx`
+- `sudo apt-get install package_name`
+- How to check the status - `systemctl status nginx`
+
+
+### Timeout
+- To run a process for a given time `timeout DURATION COMMAND`
+- `sleep` will exit after the time has completed
