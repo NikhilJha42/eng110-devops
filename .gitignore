@@ -5,7 +5,7 @@
 ubuntu-xenial-16.04-cloudimg-console.log
 
  
-# dependencies are left out for a cleaner working space on 
+# dependencies are left out for cleaner working space on 
 # GitHub
 
 rspec  
@@ -17,3 +17,5 @@ Gemfile.lock
 Rakefile
 
 node_modules
+
+npm-debug.log
