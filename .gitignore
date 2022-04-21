@@ -3,3 +3,10 @@
 
 # This is just a log.
 ubuntu-xenial-16.04-cloudimg-console.log
+
+ 
+# dependencies are left out for a cleaner working space on GitHub
+rspec  
+Gemfile  
+Gemfile.lock  
+Rakefile
