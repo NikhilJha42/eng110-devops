@@ -1,0 +1,17 @@
+# Common commands in virtual machine:
+
+- update `sudo apt-get update -y`
+- upgrade `sudo apt-get upgrade -y`
+- Who am I `uname` or `uname -a`
+- Where am I `pwd`
+- How to check files/folders in existing location `ls`
+- How to create dir `mkdir dir_name`
+- To navigate to a folder `cd folder_name`
+- To change to the parent folder `cd ..` or `cd` enter
+- How to create a file `touch file_name` or `nano file_name`
+- To see the content of a file on a terminal `cat file_name`
+- To copy file `cp location_file_name to destination_path`
+- Cut and paste `mv`
+- To delete `rm -rf folder_name`
+- How to check running process in Linux `top` or `ps aux`
+- How to kill process `kill -9 PID`
