@@ -17,3 +17,5 @@ Gemfile.lock
 Rakefile
 
 node_modules
+
+npm-debug.log
