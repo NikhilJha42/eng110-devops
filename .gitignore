@@ -19,3 +19,7 @@ Rakefile
 node_modules
 
 npm-debug.log
+
+.vs/
+
+ubuntu@ip-172-31-29-231/

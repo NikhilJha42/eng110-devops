@@ -1,5 +1,5 @@
 # eng110_devops
-
+![DevOps Pipeline](./images/Devops-toolchain.svg)
 ## What is DevOps?
 
 DevOps is the process of continuously developing, integrating and deploying software by bridging the gap between traditional development and operations teams. DevOps engineers are responsible for solving problems in the software development lifecycle - generally through automating the processes of running tests, reporting problems and deploying code.
