@@ -1,4 +1,4 @@
-# eng110_devops
+# DevOps and Virtualisation
 ![DevOps Pipeline](./images/Devops-toolchain.svg)
 ## What is DevOps?
 
